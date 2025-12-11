@@ -24,7 +24,8 @@ export default function QuizCard({ data }: Props) {
   }
 
   function submit() {
-    const correctCount = answers.reduce((acc, a, idx) => (a === data[idx].correct ? acc + 1 : acc), 0);
+    const correctCount = answers.reduce((acc: number, a: number | null, idx: number) => 
+      (a === data[idx].correct ? acc + 1 : acc), 0);
     const percent = Math.round((correctCount / data.length) * 100);
     setShowResult(percent);
   }
