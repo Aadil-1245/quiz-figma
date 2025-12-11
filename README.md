@@ -1,49 +1,54 @@
-This project is my implementation of the Frontend Developer Intern assignment provided by the company. The goal of the task was to take the given Figma design and translate it into a working, pixel accurate desktop web interface using modern frontend technologies. I have followed the design as closely as possible and built an interactive quiz experience with smooth transitions, clean UI components, and accessible behavior.
+# Quiz Figma — Frontend Assignment
 
-(1) About the Developer:
-Name: Aadil S
-Roll Number: RA2211003050036
-College: SRM Institute of Science and Technology, Chennai
+This project is my implementation of the Frontend Developer Intern assignment. The goal was to translate the provided Figma design into a working, pixel accurate desktop web interface using modern frontend technologies. I followed the design closely and built an interactive quiz with smooth transitions, clear UI components, and accessible behavior.
 
-(2) Project Overview:
+## About the Developer
+**Name:** Aadil S  
+**Roll Number:** RA2211003050036  
+**College:** SRM Institute of Science and Technology, Chennai
 
-This application is a quiz interface built using Next.js, React, TypeScript, and Tailwind CSS. It includes question navigation, animated progress indication, and a results screen with an animated counter.
-The layout, colors, spacing, and component structure have been created by referencing the Figma design provided in the assignment.
+## Project Overview
+This application is a quiz interface built using Next.js, React, TypeScript, and Tailwind CSS. It includes question navigation, animated progress indication, and a results screen with an animated counter. The layout, colors, spacing, and component structure were created by referencing the Figma design provided for the assignment.
 
-(3) Features Implemented:
+## Features Implemented
+1. Pixel-perfect layout following the Figma design  
+2. Desktop-first responsive structure  
+3. Smooth transitions for question changes  
+4. Accessible buttons, focus states and ARIA roles  
+5. Animated score reveal at the end of the quiz  
+6. Mascot component positioned as in the design  
+7. Clean folder structure and readable code
 
-  1.Pixel-perfect layout following the Figma design
-  2.Desktop-first responsive structure
-  3.Smooth transitions for question changes
-  4.Accessible buttons, focus states, and ARIA roles
-  5.Animated score reveal at the end of the quiz
-  6.A mascot component placed as shown in the design
-  7.Organized folder structure with readable, maintainable code
+## Tech Stack
+- Next.js 16  
+- React 18  
+- TypeScript  
+- Tailwind CSS  
+- Custom CSS for fine tuning  
+- `requestAnimationFrame` for the score counter animation
 
-(4) Tech Stack Used:
+## Setup Instructions
 
- 1.Next.js 16 – Framework for routing and performance
- 2.React 18 – Component-based UI
- 3.TypeScript – Type safety and cleaner development
- 4.Tailwind CSS – Styling and design utility system
- 5.Custom CSS – For fine-tuned aesthetic elements
- 6.requestAnimationFrame – For the score count-up animation
-
-(5) Setup Instructions:
-
-1. Install Dependencies
+### Install dependencies
+```bash
 npm install
-2. Run Development Server
+```
+
+### Run development server
+```bash
 npm run dev
-Open your browser and navigate to:
-http://localhost:3000
-3. Build for Production
+```
+Open http://localhost:3000
+
+### Build for production
+```bash
 npm run build
 npm start
+```
 
-(6) Project Structure:
-  
-  ├── src/
+## Project Structure
+```
+├── src/
 │   ├── app/
 │   │   ├── layout.tsx
 │   │   ├── page.tsx
@@ -57,9 +62,18 @@ npm start
 ├── tsconfig.json
 ├── tailwind.config.cjs
 └── README.md
+```
 
+## Assumptions
+- Desktop layout only (mobile is not a focus for this assignment).  
+- Mascot GIF is placed in `public/download.gif`.  
+- Fonts are loaded from Google Fonts (rendering may differ slightly between environments).
 
-LIVE DEMO LINK : https://quiz-figma-psi.vercel.app/
+## Time Spent
+Approximately 8–10 hours (analysis, implementation, styling, polishing, and testing).
 
+## Live Demo
+https://quiz-figma-psi.vercel.app/
 
- 
+## Contact
+Aadil S — GitHub: https://github.com/Aadil36
