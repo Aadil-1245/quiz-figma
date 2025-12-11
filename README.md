@@ -63,12 +63,6 @@ npm start
 ├── tailwind.config.cjs
 └── README.md
 ```
-
-## Assumptions
-- Desktop layout only (mobile is not a focus for this assignment).  
-- Mascot GIF is placed in `public/download.gif`.  
-- Fonts are loaded from Google Fonts (rendering may differ slightly between environments).
-
 ## Time Spent
 Approximately 8–10 hours (analysis, implementation, styling, polishing, and testing).
 
