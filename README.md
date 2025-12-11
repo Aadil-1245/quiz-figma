@@ -59,5 +59,7 @@ npm start
 └── README.md
 
 
+LIVE DEMO LINK : https://quiz-figma-psi.vercel.app/
+
 
  
