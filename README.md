@@ -6,6 +6,7 @@ This project is my implementation of the Frontend Developer Intern assignment. T
 **Name:** Aadil S  
 **Roll Number:** RA2211003050036  
 **College:** SRM Institute of Science and Technology, Chennai
+**RESUME :** https://drive.google.com/file/d/1BWsCLl30-BziIAI-SlSVw8ypcxKC9Q8U/view?usp=sharing
 
 ## Project Overview
 This application is a quiz interface built using Next.js, React, TypeScript, and Tailwind CSS. It includes question navigation, animated progress indication, and a results screen with an animated counter. The layout, colors, spacing, and component structure were created by referencing the Figma design provided for the assignment.
